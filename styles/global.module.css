@@ -1,0 +1,517 @@
+.center{
+    text-align: center;
+    padding: 10px;
+}
+
+.body {
+    background-color:white;   
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-left: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+
+.navbar a:hover {
+    color:darkseagreen;
+}
+  
+
+
+
+.navbar img{
+    height: 150px;
+    width: auto;
+}
+
+.ig{
+    color:lightcoral;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*
+    padding: 1.5%;
+    margin: 10px;
+    font-size: 24px;*/
+    text-decoration: none;
+    text-align:right;
+    font-size: '5vw';
+    float: 'inline-end';
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+.gifvertical{
+    display:none;
+}
+
+.gifhorizontal{
+    display:block;
+}
+
+.introvid2{
+    display: none;
+}
+
+
+.vidimg{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.vidimgver{
+    display: none;
+}
+
+.cream{
+    color:rgb(244, 192, 126);
+}
+
+.cheese{
+    color:gold;
+}
+
+.menu{
+    padding: 5%;
+}
+
+.menu img{
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+
+    /* aspect-ratio: 1/1; /* Set the aspect ratio to maintain square size */
+    /* object-fit: cover; /* Maintain the image aspect ratio and cover the container */
+}
+
+.menu_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+}
+
+
+
+.menu_item_des p{
+    color:dimgrey;
+    padding-right: 10%;
+}
+
+
+.ourcc{
+    color:gold;
+    padding-right: 10%;
+    padding-left: 10%;
+    justify-content: space-evenly;
+}
+
+
+.three{
+    color:darkorange;
+}
+
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    
+}
+
+.size h5{
+    font-size: 2.5vw;
+}
+
+.size p{
+    font-size: 2vw;
+}
+
+
+.price img{
+    width:50%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.size{
+    text-align: right;
+    width: 50%;
+}
+
+
+  
+
+.footer{
+    padding: 10%;
+    margin: 0;
+    background-color: hotpink;
+    color: whitesmoke;
+    
+}
+
+.footer p{
+    font-size: 22px;
+    
+}
+
+.contact_info {
+    display: flex;
+    margin: 0;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+
+
+.ccofbagelright{
+    padding-top: 5%;
+    padding-right: 10%;
+    font-size: 4.5vw;
+    text-align: right;
+}
+
+.aboutus{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:5%;
+}
+
+
+.aboutdesc{
+    padding-right: 5%;
+    width: 50%;
+    text-align: right;
+    
+}
+
+
+.aboutdesc p{
+    background-color: #ffffff;
+    opacity: 0.7;
+    font-size: 1.5vw;
+}
+
+
+.aboutimg{
+    width: 50%;
+    text-align: left;
+}
+
+
+
+
+.passion{
+    color:rgb(52, 147, 185);
+}
+
+.inspiration{
+    color:rgb(211, 166, 53);
+}
+
+.own{
+    color:rgb(255, 134, 48);
+}
+
+.intensity{
+    color:tomato;
+}
+
+.portions{
+    color:forestgreen;
+}
+
+.flavors{
+    color:dodgerblue;
+}
+
+.love{
+    color:firebrick;
+}
+
+.awesome{
+    color:mediumpurple;
+}
+
+.joinclub{
+    color:rgb(144, 192, 49);
+}
+
+
+
+.faqimg{
+    max-width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.faqtitle{
+    padding-top: 30px;
+    font-size: 7vw;
+}
+
+.faq{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.btn{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 4px;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding-bottom: 0;
+    color:#444;
+}
+
+.content{
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.accordion {
+    background-color:whitesmoke;
+    color: #444;
+    cursor: pointer;
+    padding: 14px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 22px;
+    transition: 0.5s;
+    border: 2px dashed #444;
+    box-sizing: border-box;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.active, .accordion:hover {
+    background-color:gainsboro;
+}
+
+/*
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+
+}
+  
+.active:after {
+    content: "\2212";
+}
+*/
+
+.panel {
+    padding: 0 18px;
+    /* background-color:oldlace; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p{
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+@media(max-width: 1100px){
+    .footer p{
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width: 800px){
+
+
+    .body{
+        font-size: x-small;
+    }
+
+    .navbar img{
+        height: 70px;
+
+    }
+
+    .navbar li{
+        display: inline-block;
+        color: black;
+        text-align: center;
+        font-size: 13px;
+        padding: 0;
+        padding-right: 4px;
+        text-decoration: none;
+    }
+
+    .gifhorizontal{
+        display:none;
+    }
+
+    .gifvertical{
+        display:block;
+    }
+
+    .vidimg{
+        display: none;
+    }
+    
+    .vidimgver{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .introvid2{
+        display: block;
+    }
+    
+    .introvid3{
+        display: block;
+    }
+
+
+    .aboutdesc p{
+        font-size: 20px;
+    }
+
+
+    .menu h1{
+        font-size: 24px; 
+    }
+
+    .menu_item_des p{
+        font-size:12px;
+        padding: 0;
+    }
+
+
+    .menu_item{
+        display: block;
+        align-items: center;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+
+   
+
+    .menu_item img{
+        width: 80%;
+    }
+
+
+    .price{
+        display: block;
+        text-align: center;
+    }
+    
+    
+    .price img{
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .size{
+        width: 100%;
+        padding: 10%;
+        padding-bottom: 5%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .eachsize h5{
+        font-size: 22px;
+    }
+
+    .eachsize p{
+        font-size: 18px;
+    }
+
+    .aboutus{
+        display: block;
+    }
+
+    .aboutimg{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .aboutdesc {
+        width: 100%;
+        text-align:justify;
+        padding: 5%;
+    }
+
+    .footer h1{
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+
+    .ccofbagelright{
+        font-size: 40px;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .accordion {
+        font-size: 14px;
+    }
+
+
+    .btn{
+        font-size: 14px;
+    }
+
+    .content{
+        font-size: 12px;
+        
+    }
+
+}
+
