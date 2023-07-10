@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 import $ from 'jquery';
 
 
-import { faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -119,10 +119,11 @@ export default function Index() {
           <li><Link href="/faq">FAQs</Link></li>
 
           <a href="https://www.instagram.com/creamcheeseclub" target="_blank">
-            <FontAwesomeIcon icon={faInstagram} />
+            <FontAwesomeIcon icon={faInstagram} className={styles.ig}/>
           </a>
           
         </div>
+
 
 
         <img id="gifh" className={`${styles.video} ${styles.gifhorizontal}`} src="static/images/ccc.gif" alt="" />
@@ -222,17 +223,17 @@ export default function Index() {
                 <p>We welcome you to reach out to us with any requests or feedback you may have. We value your input and look forward to hearing from you.</p>
 
                 <div id="contact">
-                    <div id="contact-info" className={styles.contact_info}>
-                        <p><FontAwesomeIcon icon={faFacebook} /></p><p>creamcheeseclub00@gmail.com</p>
-                    </div>
+                  <div id="contact-info" className={styles.contact_info}>
+                    <p><FontAwesomeIcon icon={faGoogle} /></p><p>creamcheeseclub00@gmail.com</p>
+                  </div>
 
-                    <div id="contact-info" className={styles.contact_info}>
-                        <p><FontAwesomeIcon icon={faFacebook} /></p><p>creamcheeseclub</p>
-                    </div>
+                  <div id="contact-info" className={styles.contact_info}>
+                    <p><FontAwesomeIcon icon={faInstagram} /></p><p>creamcheeseclub</p>
+                  </div>
 
-                    <div id="contact-info" className={styles.contact_info}>
-                      <FontAwesomeIcon icon={faFacebook} /><p>cream cheese club</p>
-                    </div>
+                  <div id="contact-info" className={styles.contact_info}>
+                    <p><FontAwesomeIcon icon={faFacebook} /></p><p>cream cheese club</p>
+                  </div>
 
                 </div>
             </div>

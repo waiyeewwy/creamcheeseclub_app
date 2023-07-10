@@ -4,7 +4,7 @@ import styles from '../styles/global.module.css'
 
 import $ from 'jquery';
 
-import { faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -38,7 +38,7 @@ export default function About() {
                     <li><Link href="/about">About Us</Link></li>
                     <li><Link href="/faq">FAQs</Link></li>
                     <a href="https://www.instagram.com/creamcheeseclub" target="_blank">
-                        <FontAwesomeIcon icon={faInstagram} />
+                        <FontAwesomeIcon icon={faInstagram} className={styles.ig} />
                     </a>
 
                 </div>
@@ -90,16 +90,16 @@ export default function About() {
                         <p>We welcome you to reach out to us with any requests or feedback you may have. We value your input and look forward to hearing from you.</p>
 
                         <div id="contact">
-                            <div id="contact-info" className={styles.contact_info}>
-                                <p><i class="fa fa-envelope"></i></p><p>creamcheeseclub00@gmail.com</p>
+                        <div id="contact-info" className={styles.contact_info}>
+                                <p><FontAwesomeIcon icon={faGoogle} /></p><p>creamcheeseclub00@gmail.com</p>
                             </div>
 
                             <div id="contact-info" className={styles.contact_info}>
-                                <p><i class="fa fa-instagram"></i></p><p>creamcheeseclub</p>
+                                <p><FontAwesomeIcon icon={faInstagram} /></p><p>creamcheeseclub</p>
                             </div>
 
                             <div id="contact-info" className={styles.contact_info}>
-                                <p><i class="fa fa-facebook"></i></p><p>cream cheese club</p>
+                                <p><FontAwesomeIcon icon={faFacebook} /></p><p>cream cheese club</p>
                             </div>
                         </div>
 
