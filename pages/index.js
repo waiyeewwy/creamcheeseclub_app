@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 import $ from 'jquery';
 
 
-import { faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -223,15 +223,15 @@ export default function Index() {
 
                 <div id="contact">
                     <div id="contact-info" className={styles.contact_info}>
-                        <p><FontAwesomeIcon icon={faFacebook} /></p><p>creamcheeseclub00@gmail.com</p>
+                      <p><FontAwesomeIcon icon={faGoogle} /></p><p>creamcheeseclub00@gmail.com</p>
                     </div>
 
                     <div id="contact-info" className={styles.contact_info}>
-                        <p><FontAwesomeIcon icon={faFacebook} /></p><p>creamcheeseclub</p>
+                      <p><FontAwesomeIcon icon={faInstagram} /></p><p>creamcheeseclub</p>
                     </div>
 
                     <div id="contact-info" className={styles.contact_info}>
-                      <FontAwesomeIcon icon={faFacebook} /><p>cream cheese club</p>
+                      <p><FontAwesomeIcon icon={faFacebook} /></p><p>cream cheese club</p>
                     </div>
 
                 </div>
