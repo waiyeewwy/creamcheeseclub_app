@@ -4,7 +4,7 @@ import styles from '../styles/global.module.css'
 
 import $ from 'jquery';
 
-import { faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faGoogle} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -135,15 +135,15 @@ export default function Home() {
 
                 <div id="contact">
                     <div id="contact-info" className={styles.contact_info}>
-                        <p><i class="fa fa-envelope"></i></p><p>creamcheeseclub00@gmail.com</p>
+                      <p><FontAwesomeIcon icon={faGoogle} /></p><p>creamcheeseclub00@gmail.com</p>
                     </div>
-
+  
                     <div id="contact-info" className={styles.contact_info}>
-                        <p><i class="fa fa-instagram"></i></p><p>creamcheeseclub</p>
+                      <p><FontAwesomeIcon icon={faInstagram} /></p><p>creamcheeseclub</p>
                     </div>
-
+  
                     <div id="contact-info" className={styles.contact_info}>
-                        <p><i class="fa fa-facebook"></i></p><p>cream cheese club</p>
+                      <p><FontAwesomeIcon icon={faFacebook} /></p><p>cream cheese club</p>
                     </div>
                 </div>
 
