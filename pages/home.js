@@ -40,7 +40,7 @@ export default function Home() {
                 <li><Link href="/faq">FAQs</Link></li>
 
                 <a href="https://www.instagram.com/creamcheeseclub" target="_blank">
-                        <FontAwesomeIcon icon={faInstagram} />
+                        <FontAwesomeIcon icon={faInstagram} className={styles.ig}/>
                 </a>
 
             </div>
