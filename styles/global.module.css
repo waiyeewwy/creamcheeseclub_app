@@ -300,8 +300,8 @@
 
 .content{
     font-size: 16px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
+    padding-top: 0;
 }
 
 .accordion {
