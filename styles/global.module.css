@@ -371,7 +371,7 @@
     }
 
     .navbar img{
-        height: 70px;
+        height: 60px;
 
     }
 
@@ -379,7 +379,7 @@
         display: inline-block;
         color: black;
         text-align: center;
-        font-size: 13px;
+        font-size: 12px;
         padding: 0;
         padding-right: 4px;
         text-decoration: none;
