@@ -385,6 +385,11 @@
         text-decoration: none;
     }
 
+    .ig{
+        padding:0;
+        padding-bottom: 4px;
+    }
+
     .gifhorizontal{
         display:none;
     }
