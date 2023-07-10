@@ -1,6 +1,6 @@
 import '../styles/global.module.css';
 import React from 'react';
-
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 
 function MyApp({ Component, pageProps }) {
