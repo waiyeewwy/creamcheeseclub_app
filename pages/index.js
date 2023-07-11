@@ -14,92 +14,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
-
 export default function Index() {
-
-  useEffect(() => {
-    $(document).ready(function() {
-
-      var gifh = $('#gifh')[0];
-      var gifc = $('#gifc')[0];
-
-      var navbar = $('#navbar');
-      var content = $('#content');
-      var vidimg = $('#vidimg');
-      var vidimgver = $('#vidimgver');
-      var footer = $('#footer');
-  
-
-      // hide content initially
-      navbar.hide();
-      content.hide();
-      vidimg.hide();
-      vidimgver.hide();
-      footer.hide();
-  
-
-      setTimeout(() => {
-        // show the content and navbar after sliding down
-        gifh.style.display = 'none';
-        gifc.style.display = 'none';
-
-        navbar.slideDown(1000);
-
-        // determine the screen width
-        var screenWidth = window.innerWidth ||
-          document.documentElement.clientWidth ||
-          document.body.clientWidth;
-        
-        if (screenWidth >= 800) {
-          // wide screen
-          vidimg.show();
-          vidimgver.hide();
-        } else {
-          // smaller screen
-          vidimg.hide();
-          vidimgver.show();
-        }
-
-        content.slideDown(1000);
-        footer.show();
-  
-        // scroll to the content below
-        $('html, body').animate({
-          scrollTop: $('#content').offset().top
-        }, 1000);
-
-      }, 9500);
-
-      // Resize event listener to handle screen width changes
-      $(window).resize(function() {
-      var screenWidth = window.innerWidth ||
-        document.documentElement.clientWidth ||
-        document.body.clientWidth;
-
-      if (screenWidth >= 800) {
-        // Wide screen
-        if (!vidimg.is(':visible')) {
-          vidimg.show();
-          vidimgver.hide();
-        }
-      } else {
-        // Smaller screen
-        if (!vidimgver.is(':visible')) {
-          vidimg.hide();
-          vidimgver.show();
-        }
-      }
-    });
-
-
-    });
-  }, []);
 
 
   return (
     <div>
       <Head>
-        <title>creamcheeseclub.com</title>
+        <title>creamcheeseclub</title>
         <link rel = "icon" href = "/static/images/home.jpg" type = "image/x-icon" />
        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
@@ -114,7 +35,7 @@ export default function Index() {
         <div id="navbar" className={styles.navbar}>
           <img id="logo" src="/static/images/creamcheeseclub.jpg" alt="" />
 
-          <li><Link href="/home">Home</Link></li>
+          <li><Link href="/index">Home</Link></li>
           <li><Link href="/about">About Us</Link></li>
           <li><Link href="/faq">FAQs</Link></li>
 
@@ -124,25 +45,18 @@ export default function Index() {
           
         </div>
 
-
-
-        <img id="gifh" className={`${styles.video} ${styles.gifhorizontal}`} src="static/images/ccc.gif" alt="" />
-
-        <img id="gifc" className={`${styles.video} ${styles.gifvertical}`} src="static/images/cccver.gif" alt="" />
-
-
-
-        <img className={styles.vidimgver} id="vidimgver" src="static/images/cccver.jpg" alt="" />
-
-        <img className={styles.vidimg} id="vidimg" src="static/images/vidimg.jpg" alt="" />
+        <img className={styles.vidimg} id="vidimg" src="static/images/logo-2.jpg" alt="" />
         
+
 
         <div id="content">
 
             <div id="products">
                 <br/>
-                    <h1 className={styles.center} id="ccofbagel">THE <span className={styles.cream}>CREAM</span> <span className={styles.cheese}>CHEESE</span> TO YOUR BAGEL</h1>
-                    
+
+                <h1 className={styles.center} id="ccofbagel"><span className={styles.premium}>PREMIUM.</span> <span className={styles.artisan}>ARTISAN.</span> <span className={styles.handcrafted}>HAND CRAFTED.</span></h1>
+                <h3 className={styles.center} id="ccofbagel">Transforming Ordinary Moments Into Extraordinary Delights.</h3>
+    
                     <div id="menu" className={styles.menu}>
                         <div className={`${styles.menu_item} ${styles.menu_item_left}`}>
                             <div className={styles.menu_item_des}>
@@ -184,7 +98,7 @@ export default function Index() {
                     <div id="price" className={styles.price}>
 
 
-                    <img src="static/images/size4.jpg" alt="" />
+                    <img src="static/images/size.jpg" alt="" />
                             
 
                     <div id="size" className={styles.size}>
