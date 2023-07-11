@@ -4,7 +4,7 @@ import styles from '../styles/global.module.css'
 
 import $ from 'jquery';
 
-import { faFacebook, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faGoogle, faBars } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
         <Head>
-            <title>creamcheeseclub.com</title>
+            <title>creamcheeseclub</title>
             <link rel = "icon" href = "/static/images/home.jpg" type = "image/x-icon" />
        
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -32,30 +32,36 @@ export default function Home() {
       
         <main className={styles.body}>
             
-            <div className={styles.navbar}>
+            <div id="navbar" className={styles.navbar}>
                 <img id="logo" src="/static/images/creamcheeseclub.jpg" alt="" />
 
-                <li><Link href="/home">Home</Link></li>
+                <li><Link href="/index">Home</Link></li>
                 <li><Link href="/about">About Us</Link></li>
                 <li><Link href="/faq">FAQs</Link></li>
 
                 <a href="https://www.instagram.com/creamcheeseclub" target="_blank">
-                        <FontAwesomeIcon icon={faInstagram} className={styles.ig}/>
+                    <FontAwesomeIcon icon={faInstagram} className={styles.ig}/>
                 </a>
-
+            
             </div>
+            
+            <img className={styles.vidimg} id="vidimg" src="static/images/logo-2.jpg" alt="" />
    
-            <img className={styles.vidimgver} id="vidimgver" src="static/images/cccver.jpg" alt="" />
 
-            <img className={styles.vidimg} id="vidimg" src="static/images/vidimg.jpg" alt="" />
 
 
             <div id="content">
 
                 <div id="products">
                 <br/>
-                <h1 className={styles.center} id="ccofbagel">THE <span className={styles.cream}>CREAM</span> <span className={styles.cheese}>CHEESE</span> TO YOUR BAGEL</h1>
-                    
+
+
+                <h1 className={styles.center} id="ccofbagel"><span className={styles.premium}>PREMIUM.</span> <span className={styles.artisan}>ARTISAN.</span> <span className={styles.handcrafted}>HAND CRAFTED.</span></h1>
+
+                
+                <h3 className={styles.center} id="ccofbagel">Transforming Ordinary Moments Into Extraordinary Delights.</h3>
+
+
                 <div id="menu" className={styles.menu}>
                     <div className={`${styles.menu_item} ${styles.menu_item_left}`}>
                         <div className={styles.menu_item_des}>
@@ -94,7 +100,7 @@ export default function Home() {
                 <div id="price" className={styles.price}>
 
 
-                    <img src="static/images/size3.jpg" alt="" />
+                    <img src="static/images/size.jpg" alt="" />
                                 
 
                     <div id="size" className={styles.size}>
