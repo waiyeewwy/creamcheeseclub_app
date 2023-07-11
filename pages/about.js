@@ -93,11 +93,11 @@ export default function About() {
                         <div id="contact-info" className={styles.contact_info}>
                                 <p><FontAwesomeIcon icon={faGoogle} /></p><p>creamcheeseclub00@gmail.com</p>
                             </div>
-
+            
                             <div id="contact-info" className={styles.contact_info}>
                                 <p><FontAwesomeIcon icon={faInstagram} /></p><p>creamcheeseclub</p>
                             </div>
-
+            
                             <div id="contact-info" className={styles.contact_info}>
                                 <p><FontAwesomeIcon icon={faFacebook} /></p><p>cream cheese club</p>
                             </div>

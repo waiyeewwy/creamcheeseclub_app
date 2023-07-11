@@ -137,17 +137,17 @@ export default function Home() {
                 <p>We welcome you to reach out to us with any requests or feedback you may have. We value your input and look forward to hearing from you.</p>
 
                 <div id="contact">
-                <div id="contact-info" className={styles.contact_info}>
-                                <p><FontAwesomeIcon icon={faGoogle} /></p><p>creamcheeseclub00@gmail.com</p>
-                            </div>
-
-                            <div id="contact-info" className={styles.contact_info}>
-                                <p><FontAwesomeIcon icon={faInstagram} /></p><p>creamcheeseclub</p>
-                            </div>
-
-                            <div id="contact-info" className={styles.contact_info}>
-                                <p><FontAwesomeIcon icon={faFacebook} /></p><p>cream cheese club</p>
-                            </div>
+                    <div id="contact-info" className={styles.contact_info}>
+                      <p><FontAwesomeIcon icon={faGoogle} /></p><p>creamcheeseclub00@gmail.com</p>
+                    </div>
+  
+                    <div id="contact-info" className={styles.contact_info}>
+                      <p><FontAwesomeIcon icon={faInstagram} /></p><p>creamcheeseclub</p>
+                    </div>
+  
+                    <div id="contact-info" className={styles.contact_info}>
+                      <p><FontAwesomeIcon icon={faFacebook} /></p><p>cream cheese club</p>
+                    </div>
                 </div>
 
             </div>

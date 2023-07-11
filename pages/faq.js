@@ -47,7 +47,7 @@ export default function Faq() {
                     <li><Link href="/faq">FAQs</Link></li>
 
                     <a href="https://www.instagram.com/creamcheeseclub" target="_blank">
-                        <FontAwesomeIcon icon={faInstagram} className={styles.ig}/>
+                        <FontAwesomeIcon icon={faInstagram} className={styles.ig} />
                     </a>
 
                     
@@ -147,15 +147,15 @@ export default function Faq() {
 
                         <div id="contact">
                             <div id="contact-info" className={styles.contact_info}>
-                                <p><FontAwesomeIcon icon={faGoogle} /></p><p>creamcheeseclub00@gmail.com</p>
+                              <p><FontAwesomeIcon icon={faGoogle} /></p><p>creamcheeseclub00@gmail.com</p>
                             </div>
-
+          
                             <div id="contact-info" className={styles.contact_info}>
-                                <p><FontAwesomeIcon icon={faInstagram} /></p><p>creamcheeseclub</p>
+                              <p><FontAwesomeIcon icon={faInstagram} /></p><p>creamcheeseclub</p>
                             </div>
-
+          
                             <div id="contact-info" className={styles.contact_info}>
-                                <p><FontAwesomeIcon icon={faFacebook} /></p><p>cream cheese club</p>
+                              <p><FontAwesomeIcon icon={faFacebook} /></p><p>cream cheese club</p>
                             </div>
                         </div>
 
