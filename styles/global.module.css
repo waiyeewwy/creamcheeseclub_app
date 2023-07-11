@@ -20,7 +20,7 @@
 }
 
 .navbar a {
-    display: inline-block;
+    display: flex;
     color: black;
     text-align: center;
     padding-left: 20px;
@@ -30,7 +30,7 @@
   
 
 .navbar a:hover {
-    color:darkseagreen;
+    color:thistle;
 }
 
 
@@ -39,6 +39,8 @@
     height: 150px;
     width: auto;
 }
+
+
 
 .ig{
     display: inline-block;
@@ -54,26 +56,23 @@
     color:darkseagreen;
 }
 
+.premium{
+    color:rgb(18, 118, 218);
+}
+
+.artisan{
+    color:rgb(30, 183, 30);
+}
+
+.handcrafted{
+    color:rgb(249, 27, 138);
+}
+
 .video {
     width: 100%;
     height: auto;
 }
 
-.gifvertical{
-    display:none;
-}
-
-.gifhorizontal{
-    display:block;
-}
-
-.introvid2{
-    display: none;
-}
-
-.imgs{
-    width: 90%;
-}
 
 .vidimg{
     width: 100%;
@@ -81,9 +80,6 @@
     display: block;
 }
 
-.vidimgver{
-    display: none;
-}
 
 .cream{
     color:rgb(244, 192, 126);
@@ -101,9 +97,6 @@
     width: 50%;
     height: auto;
     border-radius: 25px;
-
-    /* aspect-ratio: 1/1; /* Set the aspect ratio to maintain square size */
-    /* object-fit: cover; /* Maintain the image aspect ratio and cover the container */
 }
 
 .menu_item{
@@ -162,8 +155,6 @@
     width: 50%;
 }
 
-
-  
 
 .footer{
     padding: 10%;
@@ -298,6 +289,7 @@
     font-size: 20px;
     padding-bottom: 0;
     color:#444;
+    font-weight: bold;
 }
 
 .content{
@@ -307,7 +299,6 @@
 }
 
 .accordion {
-    background-color:whitesmoke;
     color: #444;
     cursor: pointer;
     padding: 14px;
@@ -323,6 +314,7 @@
     box-sizing: border-box;
     margin-top: 10px;
     align-items: center;
+    
 }
 
 .active, .accordion:hover {
@@ -344,18 +336,7 @@
 }
 */
 
-.panel {
-    padding: 0 18px;
-    /* background-color:oldlace; */
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
 
-.panel p{
-    padding-top: 10px;
-    font-size: 16px;
-}
 
 
 @media(max-width: 1100px){
@@ -393,31 +374,6 @@
         font-size: 22px;
     }
 
-    .gifhorizontal{
-        display:none;
-    }
-
-    .gifvertical{
-        display:block;
-    }
-
-    .vidimg{
-        display: none;
-    }
-    
-    .vidimgver{
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .introvid2{
-        display: block;
-    }
-    
-    .introvid3{
-        display: block;
-    }
 
 
     .aboutdesc p{
