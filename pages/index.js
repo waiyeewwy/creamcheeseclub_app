@@ -54,8 +54,8 @@ export default function Index() {
             <div id="products">
                 <br/>
 
-                <h1 className={styles.center} id="ccofbagel"><span className={styles.premium}>PREMIUM.</span> <span className={styles.artisan}>ARTISAN.</span> <span className={styles.handcrafted}>HAND CRAFTED.</span></h1>
-                <h3 className={styles.center} id="ccofbagel">Transforming Ordinary Moments Into Extraordinary Delights.</h3>
+                <h1 className={`${styles.hometitle} ${styles.center}`} id="ccofbagel"><span className={styles.premium}>PREMIUM.</span> <span className={styles.artisan}>ARTISAN.</span> <span className={styles.handcrafted}>HAND CRAFTED.</span></h1>
+                <h3 className={`${styles.homesubtitle} ${styles.center}`} id="ccofbagel">Transforming <span className={styles.ordinary}>Ordinary</span> Moments Into <span className={styles.extraordinary}>Extraordinary</span> Delights.</h3>
     
                     <div id="menu" className={styles.menu}>
                         <div className={`${styles.menu_item} ${styles.menu_item_left}`}>
