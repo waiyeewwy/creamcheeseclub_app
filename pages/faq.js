@@ -16,14 +16,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 export default function Faq() {
-
-
-
   
       return (
         <div>
             <Head>
-                <title>creamcheeseclub.com</title>
+                <title>creamcheeseclub</title>
                 <link rel = "icon" href = "/static/images/home.jpg" type = "image/x-icon" />
             
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -42,7 +39,7 @@ export default function Faq() {
                 <div className={styles.navbar}>
                     <img id="logo" src="/static/images/creamcheeseclub.jpg" alt="" />
 
-                    <li><Link href="/home">Home</Link></li>
+                    <li><Link href="/index">Home</Link></li>
                     <li><Link href="/about">About Us</Link></li>
                     <li><Link href="/faq">FAQs</Link></li>
 
@@ -66,59 +63,37 @@ export default function Faq() {
 
                     <div id="faq" className={styles.faq}>
                         
-                        <Accordion title="What sizes of cream cheese do you offer?" 
-                        content="Our cream cheese is available in three sizes: small, medium, and large, catering to different needs and preferences." />
+                        <Accordion title="How can I place my order for the cream cheese?" 
+                        content="To place an order for our delightful cream cheese, kindly send us a private message via our social media channels. 
+                        We'll be more than happy to assist you with the ordering process and answer any questions you may have. 
+                        Please note that we are currently upgrading our website's purchase system, and we apologize for any inconvenience caused." />
 
                         <Accordion title="How long does the cream cheese stay fresh and what are the storing conditions?" 
-                        content="Our cream cheese is made fresh and has a shelf life of approximately 3 weeks. For optimal freshness, it is recommended to 
-                        store our cream cheese in a cool area at a temperature below 5 degrees Celsius." />
-
-
-                        <Accordion title="Do you offer any specialty or limited edition cream cheese flavors?" 
-                        content="Yes, we occasionally introduce specialty or limited edition cream cheese flavors to surprise and delight our customers. 
-                        Keep an eye out for exciting new offerings!" />
-
-                        <Accordion title="Are your cream cheeses suitable for individuals with dietary restrictions (e.g., lactose-free / nut-free)?" 
-                        content="Yes, we understand the importance of catering to dietary restrictions. We offer the options such as lactose-free and nut-free cream 
-                        cheeses to accommodate various dietary preferences." />
-
-                        <Accordion title="Can I place a bulk order for events or special occasions?" 
-                        content="Certainly! We welcome bulk orders for events or special occasions at discounted prices, ensuring that everyone can savor the 
-                        delightful taste of our cream cheese. Please reach out to our customer support team to discuss your specific requirements." />
+                        content="Our cream cheese is crafted with freshness in mind and is best enjoyed within 10 days of purchase. 
+                        To ensure optimal flavor, please store our cream cheese refrigerated at all times and avoid exposure to moisture." />
 
                         <Accordion title="What are the delivery options and charges for shipping cream cheese?" 
-                        content="While we currently do not provide delivery options for shipping cream cheese, we do offer a convenient pick-up option at no additional cost. 
-                        You can collect your order directly from our Melbourne CBD, Doncaster, or Point Cook locations, ensuring a hassle-free experience." />
+                        content="Take advantage of our convenient pick-up option near Doncaster, 
+                        or enjoy the added convenience of complimentary delivery to Melbourne CBD areas for orders over $70." />
 
 
-                        <Accordion title="Is there a minimum order requirement for purchasing cream cheese?" 
-                        content="There is no minimum order requirement for purchasing cream cheese from our online shop. You can order as little or as much as you desire." />
-
-                        <Accordion title="How far in advance should I place my order to ensure availability?" 
-                        content="To ensure availability, we recommend placing your cream cheese order at least three days in advance." />
-
-                        <Accordion title="What are the storage recommendations for your cream cheese products?" 
-                        content="For optimal freshness, we suggest storing our cream cheese products in the refrigerator. It's best to follow the storage instructions provided with your order." />
-
-                        <Accordion title="Are there any discounts or promotions available for regular customers?" 
-                        content="We are thrilled to offer special discounts and promotions to our regular customers. Stay updated on the latest deals and offers by 
-                        following us on social media. Keep an eye out for exciting discounts that will make your cream cheese experience even more delightful!" />
-
-                        <Accordion title="Do you offer gift packaging or options for sending cream cheese as a gift?" 
-                        content="Yes, we provide gift packaging options for sending cream cheese as a thoughtful present. You can select gift packaging during the ordering process." />
+                        <Accordion title="Are your cream cheeses suitable for individuals with dietary restrictions (e.g., lactose-free/nut-free)?" 
+                        content="Yes, we understand the importance of catering to dietary restrictions. We offer the options such as lactose-free and nut-free cream 
+                        cheeses to accommodate various dietary preferences." />
 
                         <Accordion title="Are the ingredients used in your cream cheeses sourced locally or sustainably?" 
                         content="At our cream cheese shop, we place a high priority on sourcing ingredients locally and sustainably whenever feasible. Supporting local producers 
                         and embracing environmentally friendly practices is at the core of our values. In addition, we are dedicated to using only premium products to ensure the 
                         utmost quality in every bite." />
 
+                        <Accordion title="Are there any discounts or promotions available for regular customers?" 
+                        content="We are thrilled to offer special discounts and promotions to our regular customers. Stay updated on the latest deals and offers by 
+                        following us on social media. Keep an eye out for exciting discounts that will make your cream cheese experience even more delightful!" />
 
-                        <Accordion title="Are your cream cheese products available across Australia?" 
-                        content="Currently, we are only located at Melbourne. We look forward to supplying our products across Australia in the near future." />
+                        <Accordion title="Can I place a bulk order for events or special occasions?" 
+                        content="Certainly! Celebrate your special occasions with our cream cheese by placing bulk orders at discounted prices. 
+                        We invite you to contact us via email to discuss your specific requirements and create a memorable experience for all." />
 
-                        <Accordion title="How can I contact customer support for any further inquiries or assistance?" 
-                        content="If you have any further inquiries or require assistance, our dedicated customer support team is ready to help. You can reach out to us via email or 
-                        message our social media account and we'll be delighted to assist you." />
 
 
                     </div>
