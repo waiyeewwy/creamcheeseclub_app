@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/global.module.css'
 
-import $ from 'jquery';
 
 import { faFacebook, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,7 +14,7 @@ export default function About() {
 
         <div>
             <Head>
-                <title>creamcheeseclub.com</title>
+                <title>creamcheeseclub</title>
                 <link rel = "icon" href = "/static/images/home.jpg" type = "image/x-icon" />
         
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -34,7 +33,7 @@ export default function About() {
                 <div className={styles.navbar}>
                     <img id="logo" src="/static/images/creamcheeseclub.jpg" alt="" />
 
-                    <li><Link href="/home">Home</Link></li>
+                    <li><Link href="/index">Home</Link></li>
                     <li><Link href="/about">About Us</Link></li>
                     <li><Link href="/faq">FAQs</Link></li>
                     <a href="https://www.instagram.com/creamcheeseclub" target="_blank">
