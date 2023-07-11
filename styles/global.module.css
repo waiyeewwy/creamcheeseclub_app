@@ -56,6 +56,14 @@
     color:darkseagreen;
 }
 
+.hometitle{
+    font-size: 4.5vw;
+}
+
+.homesubtitle{
+    font-size: 3.25vw;
+}
+
 .premium{
     color:rgb(18, 118, 218);
 }
@@ -66,6 +74,14 @@
 
 .handcrafted{
     color:rgb(249, 27, 138);
+}
+
+.ordinary{
+    color:cadetblue;
+}
+
+.extraordinary{
+    color:skyblue;
 }
 
 .video {
