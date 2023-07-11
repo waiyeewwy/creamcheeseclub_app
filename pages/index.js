@@ -149,8 +149,19 @@ export default function Index() {
                                 <h1>Garlic & Chives</h1>
                                 <p>Aromatic flavors of garlic with mild zest of chives.</p>
                             </div>
-                            <img src="static/images/matcha.jpg" alt="" />
+                            <img src="static/images/garlic.jpg" alt="" />
                         </div>
+
+                        <br/>
+                            
+                        <div className={`${styles.menu_item} ${styles.menu_item_left}`}>
+                            <div className={styles.menu_item_des}>
+                                <h1>Blueberry</h1>
+                                <p>Symphony of creamy richness & burst of juicy blueberry goodness.</p>
+                            </div>
+                            <img src="static/images/blueberry.jpg" alt=""/>
+                        </div>
+
                         <br/>
 
 
@@ -160,19 +171,11 @@ export default function Index() {
                                 <h1>Apricot & Macadamia</h1>
                                 <p>Delightful fusion of fruity apricots & buttery crunch of macadamia nuts.</p>
                             </div>      
-                            <img src="static/images/matcha.jpg" alt="" />
+                            <img src="static/images/apricot.jpg" alt="" />
                         </div>
 
                         
-                        <br/>
-                            
-                        <div className={`${styles.menu_item} ${styles.menu_item_left}`}>
-                            <div className={styles.menu_item_des}>
-                                <h1>Blueberry</h1>
-                                <p>Symphony of creamy richness & burst of juicy blueberry goodness.</p>
-                            </div>
-                            <img src="static/images/matcha.jpg" alt=""/>
-                        </div>
+                        
                     </div>
                 
 
@@ -192,12 +195,12 @@ export default function Index() {
 
                         <div className={styles.eachsize}>
                             <h5>Medium</h5>
-                            <p>300g<br/>$30</p>
+                            <p>300g<br/>$25</p>
                         </div>
 
                         <div className={styles.eachsize}>
                             <h5 >Large</h5>
-                            <p>550g<br/>$45</p>
+                            <p>550g<br/>$40</p>
                         </div>
                     </div>
                             
