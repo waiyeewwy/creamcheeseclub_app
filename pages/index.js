@@ -93,7 +93,7 @@ export default function Index() {
                     </div>
                 
 
-                    <h2 className={`${styles.center} ${styles.ourcc}`}>Our versatile cream cheeses are available in <span className={styles.three}>three</span> sizes and <span className={styles.three}>three</span> price options, allowing you to choose the perfect fit for your cravings and budget.</h2>
+                    <h2 className={`${styles.center} ${styles.ourcc}`}>Our versatile cream cheeses are available in <span className={styles.three}>three</span> sizes and price options, allowing you to choose the perfect fit for your cravings.</h2>
 
                     <div id="price" className={styles.price}>
 
