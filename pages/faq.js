@@ -73,8 +73,8 @@ export default function Faq() {
                         To ensure optimal flavor, please store our cream cheese refrigerated at all times and avoid exposure to moisture." />
 
                         <Accordion title="What are the delivery options and charges for shipping cream cheese?" 
-                        content="Take advantage of our convenient pick-up option near Doncaster, 
-                        or enjoy the added convenience of complimentary delivery to Melbourne CBD areas for orders over $70." />
+                        content="Say goodbye to delivery wait times and enjoy the ease of collecting your cream cheese order through our ultimate convenient pick-up option at Doncaster. 
+                          Simply place your order with us and we will update you the details on the accurate pick up location! We hope to see you soon!" />
 
 
                         <Accordion title="Are your cream cheeses suitable for individuals with dietary restrictions (e.g., lactose-free/nut-free)?" 
